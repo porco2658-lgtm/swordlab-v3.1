@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "swordlab",
+  "version": "${version}",
+  "name": "SwordLab",
+  "description": "Client-side red-team modules (sword, crystal, visuals) for testing server anti-cheat checks.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.swordlab.SwordLabClient"] },
+  "mixins": ["swordlab.mixins.json", "swordlab.visuals.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

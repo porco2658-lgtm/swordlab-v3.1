@@ -1,0 +1,7 @@
+{
+  "required": false,
+  "package": "com.swordlab.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ItemInHandRendererMixin", "LivingEntityMixin", "ClientLevelMixin"],
+  "injectors": { "defaultRequire": 0 }
+}

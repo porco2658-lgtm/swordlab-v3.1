@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.swordlab.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["LocalPlayerMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
